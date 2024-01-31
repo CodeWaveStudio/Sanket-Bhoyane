@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="main">
+        <h1>Register here!</h1>
+        <form action="" class="fill-form">
+
+            <div class="input-box">
+
+                <input type="text" id="username" name="username" placeholder="Username">
+                <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/user--v1.png" alt="user--v1"/>
+            <div class="alert" id="username-alert"></div>
+            </div>
+            <div class="input-box">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/new-post.png" alt="new-post"/>
+                <div class="alert" id="email-alert"></div>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" name="password" placeholder="Password">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/lock.png" alt="lock"/>
+                <div class="alert" id="password-alert"></div>
+            </div>
+            <div class="input-box">
+                <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password">
+                <img src="https://img.icons8.com/ios-filled/50/FFFFFF/lock.png" alt="lock"/>
+                <div class="alert" id="cpassword-alert"></div>
+            </div>
+            <div class="regBtn">
+                <input type="submit" id="reg-Btn" name="reg-Btn" value="Register">
+            </div>
+            <div class="group">
+                <a href="#">
+                <h1>Forgot Password</h1>
+            </a>
+            <a href="#">
+                <h1>Login</h1>
+            </a>
+            </div>
+        </form>
+    </div>
+    <div class="pop-up">
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/40C057/checked--v1.png" alt="checked--v1"/>
+     <h1>Thank You For Registration!</h1>
+     <h2>visit again.</h2>
+     <input type="submit" id="ok-btn" value="Ok">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
