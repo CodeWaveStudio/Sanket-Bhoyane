@@ -6,9 +6,9 @@ public class Main {
         System.out.println("Enter The Size of array :");
         int n=sc.nextInt();
         Stack stack=new Stack(n);
-        // stack.push(10);
-        // stack.push(20);
-        // stack.push(30);
+         stack.push(10);
+         stack.push(20);
+         stack.push(30);
         stack.display();
         stack.pop();
         stack.display();
